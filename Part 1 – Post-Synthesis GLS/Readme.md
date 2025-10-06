@@ -150,3 +150,10 @@ gtkwave post_synth_sim.vcd
 ![simulation_screenshot](Screenshots/simulation_ss.jpg)
 
 ---
+
+## Final Observation
+
+- The Gate-Level Simulation (GLS) results were found to be functionally equivalent to the RTL simulation results obtained in Week 2.
+- This confirms that synthesis did not introduce any unintended logic changes.
+
+**Conclusion:**  GLS output = Functional Simulation output
