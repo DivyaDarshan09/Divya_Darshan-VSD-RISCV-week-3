@@ -1,1 +1,2 @@
-# Divya_Darshan-VSD-RISCV-week-3
+# Week 2 - RISC-V SoC Tapeout Journey (Divya Darshan)
+
