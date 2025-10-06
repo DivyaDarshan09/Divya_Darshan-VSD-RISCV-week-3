@@ -36,7 +36,6 @@ The GLS process involves these main steps:
 - Inside the Yosys shell, run:
 
 ```bash
-cd VSDBabySoC
 read_verilog ./src/module/vsdbabysoc.v
 read_verilog -I ./src/include ./output/compiled_tlv/rvmyth.v
 read_verilog -I ./src/include ./src/module/clk_gate.v
