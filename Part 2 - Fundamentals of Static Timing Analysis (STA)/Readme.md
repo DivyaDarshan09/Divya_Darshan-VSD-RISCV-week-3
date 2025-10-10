@@ -93,18 +93,21 @@ Slack = Required Time - Arrival Time
 ### Transition (Slew) Analysis
 ```mermaid
 flowchart TD
-    A[Transition_Slew_Analysis] --> B[Check Types]
-    B --> C[Data Slew [Min/Max]]
-    B --> D[Clock Slew [Min/Max]]
+    A["Transition (Slew) Analysis"] --> B["Measures rise/fall time of a signal"]
+    B --> C["Branch by Type"]
+    C --> D["Data Slew (Min/Max)"]
+    C --> E["Clock Slew (Min/Max)"]
+    D --> F["Large slew → Slower transition → Increased delay"]
+    E --> G["Clock transitions tighter than Data → must be stable"]
 ```
 
 ### Load Analysis
 ```mermaid
 flowchart TD
-    A[Load Analysis] --> B[Depends on]
-    B --> C[Fan-out [Max/Min]]
-    B --> D[Capacitance [Max/Min]]
-    C --> E[Influences delay of driving cell]
+    A["Load Analysis"] --> B["Depends on"]
+    B --> C["Fan-out [Max/Min]"]
+    B --> D["Capacitance [Max/Min]"]
+    C --> E["Influences delay of driving cell"]
     D --> E
 ```
 ### Clock Analysis
