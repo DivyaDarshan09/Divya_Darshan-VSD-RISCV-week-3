@@ -20,7 +20,7 @@ cd build
 make
 make install
 ```
-![Cudd installation terminal output](Screenshots/cudd_terminal_op.jpg)
+![Cudd installation terminal output](Screenshots/cudd_terminal.jpg)
 
 ---
 
