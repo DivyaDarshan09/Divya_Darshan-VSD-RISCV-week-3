@@ -93,12 +93,12 @@ Slack = Required Time - Arrival Time
 ### Transition (Slew) Analysis
 ```mermaid
 flowchart TD
-    A[Clock Analysis] --> B[Check Types]
-    B --> C[Clock Skew]
-    B --> D[Pulse Width]
-    
-    C --> E[Difference in clock arrival times at registers]
-    D --> F[Ensure clock pulse is wide enough for latches/FFs]
+    A[Transition (Slew) Analysis] --> B[Measures rise/fall time of a signal]
+    B --> C[Branch by Type]
+    C --> D[Data Slew (Min/Max)]
+    C --> E[Clock Slew (Min/Max)]
+    D --> F[Large slew → Slower transition → Increased delay]
+    E --> G[Clock transitions tighter than Data → must be stable during toggle]
 ```
 
 ### Load Analysis
