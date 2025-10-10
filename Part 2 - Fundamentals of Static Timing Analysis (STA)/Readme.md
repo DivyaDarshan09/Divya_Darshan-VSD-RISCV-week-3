@@ -59,7 +59,7 @@ STA ensures that every **data signal** arrives and stabilizes at the correct tim
 
 ##  Timing Path and Key Parameters
 
-Assume **timing path** typically consists of:  
+Assume a circuit typically consists of:  
 **Launch Flip-Flop → Combinational Logic → Capture Flip-Flop**
 
 **Circuit Daigram:**
