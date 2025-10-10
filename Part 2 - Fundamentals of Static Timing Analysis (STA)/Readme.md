@@ -268,9 +268,9 @@ Variation in delay due to process, voltage, or temperature differences across th
 2) Oxide thickness variation
 
 **Clock Pull-in and Push-out**
-```BASH
-**Pull-in:** Clock arrives earlier (speedup)
-**Push-out:** Clock arrives later (slowdown)
+```bash
+Pull-in: Clock arrives earlier (speedup)
+Push-out: Clock arrives later (slowdown)
 ```
 - These affect timing closure and are analyzed using OCV corners.
 
