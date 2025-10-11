@@ -308,6 +308,7 @@ This course provided a **comprehensive overview of STA fundamentals**, including
 It strengthened my ability to **analyze, interpret, and optimize timing paths** in digital circuits, preparing me for real-world circuit verification and ensuring reliable design performance.
 
 ---
+
 ## Credits
 Thanks to **Kunal Ghosh Sir** for the teaching. The sessions are very clear, neat, and easy to understand.  
 I am grateful for this mentorship and am very excited for the upcoming weeks to continue learning and working under his guidance.
