@@ -4,8 +4,8 @@
 
 ## Objective
 
-The goal of **Week 3** is to **understand and perform Gate-Level Simulation (GLS)** after synthesis, validate the **functional correctness of the synthesized netlist**, and gain a practical understanding of **Static Timing Analysis (STA)** concepts using **OpenSTA**.  
-This week bridges the gap between **functional verification** and **timing validation**, ensuring that the synthesized design meets both **logical** and **timing constraints**.
+- The goal of **Week 3** is to **understand and perform Gate-Level Simulation (GLS)** after synthesis, validate the **functional correctness of the synthesized netlist**, and gain a practical understanding of **Static Timing Analysis (STA)** concepts using **OpenSTA**.  
+- This week bridges the gap between **functional verification** and **timing validation**, ensuring that the synthesized design meets both **logical** and **timing constraints**.
 
 ---
 
@@ -13,7 +13,7 @@ This week bridges the gap between **functional verification** and **timing valid
 
 ### **Part 1 – Post-Synthesis GLS**
 
-- Performed **Gate-Level Simulation** using the synthesized netlist and standard cell library.
+- Performed **Gate-Level Simulation** using the synthesized netlist and standard cell library of VSDBabySoC.
 - Verified **functional equivalence** between RTL and post-synthesis simulation.
 - Understood the significance of **SDF (Standard Delay Format)** for accurate timing-based simulations.
 - Observed how **timing delays and gate-level optimizations** influence the design’s output behavior.
@@ -24,11 +24,11 @@ This week bridges the gap between **functional verification** and **timing valid
 
 ### **Part 2 – Fundamentals of STA (Static Timing Analysis)**
 
-- Learned the **core concepts** of STA such as:
+- Learned the STA From `Static Timing Analysis-I` course by Kunal Ghosh sir 
+- Covered **Core Concepts** like :
   - **Setup time**, **hold time**, and **slack**
-  - **Clock latency**, **skew**, **jitter**, and **timing paths**
+  - **Clock latency**, **skew**, **jitter**, **timing paths**, **OCV and Its Timing Analysis**
 - Understood how **STA differs from dynamic simulation** and why it’s essential for verifying **timing closure**.
-- Performed a basic timing analysis to check for **setup and hold violations**.
 
 👉 [View STA Fundamentals Report](Part%202%20-%20Fundamentals%20of%20Static%20Timing%20Analysis%20(STA)/)
 
@@ -37,18 +37,13 @@ This week bridges the gap between **functional verification** and **timing valid
 ###  **Part 3 – Generate Timing Graphs with OpenSTA**
 
 - Installed and configured **OpenSTA** with necessary dependencies.
+- Performed a basic `timing analysis` to check for **setup and hold violations**.
+- Also performed timing analysis for `VSDBabySoC` and `Multi Corner PVT analysis`
 - Used **TCL scripts** to read the synthesized netlist, constraints, and liberty files.
 - Generated **timing graphs** and evaluated **slack**, **critical paths**, and **timing margins** across multiple PVT corners.
 - Interpreted **WNS (Worst Negative Slack)** and **TNS (Total Negative Slack)** to assess timing quality.
 
-### 🔹 **Part 3 – Generate Timing Graphs with OpenSTA**
-
-- Installed and configured **OpenSTA** with necessary dependencies.  
-- Used **TCL scripts** to read the synthesized netlist, constraints, and liberty files.  
-- Generated **timing graphs** and evaluated **slack**, **critical paths**, and **timing margins** across multiple PVT corners.  
-- Interpreted **WNS (Worst Negative Slack)** and **TNS (Total Negative Slack)** to assess timing quality.  
-
-👉 [View OpenSTA Overview](Part%203%20–%20Generate%20Timing%20Graphs%20with%20OpenSTA/)  
+👉 [View OpenSTA Overview](Part%203%20–%20Generate%20Timing%20Graphs%20with%20OpenSTA/Timing_Analysis.md)  
 👉 [View VSDBabySoC Timing Analysis Report](Part%203%20–%20Generate%20Timing%20Graphs%20with%20OpenSTA/VSDBabySoC_Timing_Analysis.md)
 
 ---
