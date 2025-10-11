@@ -74,16 +74,17 @@ show
 
 ![Synthesis terminal op](Screenshots/synthesis_terminal_op1.jpg)
 
+---
+
 **Screenshot** : Stats of cells used 
 
 ![Synthesis terminal op](Screenshots/synthesis_terminal_op2.jpg)
 
 ---
-
 ### Step 3 : Timing analysis using OpenSTA
 
 ```bash
-        sta
+ sta
 ```
 - After launching the OpenSTA interactive shell (denoted by the `%` prompt), you can run the following commands to carry out a basic static timing analysis:
 
@@ -113,9 +114,10 @@ report_checks -path_delay min
 
 ![Cmd Terminal](Screenshots/cmd_Terminal.jpg)
 
+---
+
 **Screenshot** : Max path timing report
 
----
 ![Max path check](Screenshots/max_path_check.jpg)
 
 ---
@@ -137,12 +139,14 @@ report_checks -path_delay min
 | **r2/Q**      | Clock-to-Q delay      | 0.23 |
 | **u1**        | Buffer delay          | 0.08 |
 | **u2**        | AND2 delay            | 0.10 |
-| **Clock Period** | –                  | 10.00 |
-| **Library Setup Time** | –            | -0.16 |
+| **Clock Period** | Clock period                  | 10.00 |
+| **Library Setup Time** | Setup time           | -0.16 |
 
 ---
 
-### Timing Calculations
+## Timing Calculations
+---
+## Set Up Time Analysis
 
 **Data Arrival Time (tarrival):**
 ```bash 
@@ -194,6 +198,10 @@ Slackhold = −0.01 ns (VIOLATED)
 - The **hold slack is negative (−0.01 ns)** → **Hold timing is violated**.  
 - This indicates that data is arriving **too early** at the capture flip-flop before it becomes stable for the next clock edge.  
 - The path therefore **fails the hold requirement**, causing a potential data corruption risk.
+
+**Screenshot** : The timing report were analysed and Verified.
+
+![Delay](Screenshots/Delay.jpg)
 
 ---
 
