@@ -51,22 +51,18 @@ This week bridges the gap between **functional verification** and **timing valid
 👉 [View OpenSTA Overview](Part%203%20–%20Generate%20Timing%20Graphs%20with%20OpenSTA/)  
 👉 [View VSDBabySoC Timing Analysis Report](Part%203%20–%20Generate%20Timing%20Graphs%20with%20OpenSTA/VSDBabySoC_Timing_Analysis.md)
 
+---
+
+##  Author and Originality
+
+[Author & Declaration](author.md)
 
 ---
 
-## 🧾 Author and Originality
+## Conclusion
 
-📄 [Author & Declaration](author.md)
-
-This project and documentation are **entirely done by me** and are **free from plagiarism**.  
-All experiments, results, and observations are based on **my personal implementation and understanding** during Week 3.
-
----
-
-## 🧭 Conclusion
-
-Throughout Week 3, I learned to connect the dots between **synthesis**, **simulation**, and **timing verification**.  
-Performing Gate-Level Simulation gave me hands-on exposure to real timing delays, while OpenSTA introduced me to **static timing validation**, a crucial skill in ASIC and FPGA design flows.  
+- Throughout Week 3, I learned to connect the dots between **synthesis**, **simulation**, and **timing verification**.  
+- Performing Gate-Level Simulation gave me hands-on exposure to real timing delays, while OpenSTA introduced me to **static timing validation**, a crucial skill in ASIC and FPGA design flows.  
 
 By the end of this week, I could:
 - Confidently perform **post-synthesis GLS** to verify netlist correctness.  
@@ -77,4 +73,4 @@ This week strengthened my foundation in **timing analysis** and gave me practica
 
 ---
 
-📅 *Completed as part of Week 3 learning and experimentation on Gate-Level Simulation and Static Timing Analysis.*
+**Completed as part of Week 3 learning and experimentation on Gate-Level Simulation and Static Timing Analysis.**
