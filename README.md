@@ -1,2 +1,80 @@
-# Week 2 - RISC-V SoC Tapeout Journey (Divya Darshan)
+# Week # - RISC-V SoC Tapeout Journey (Divya Darshan)
+## Gate-Level Simulation & Static Timing Analysis using OpenSTA
+---
 
+## Objective
+
+The goal of **Week 3** is to **understand and perform Gate-Level Simulation (GLS)** after synthesis, validate the **functional correctness of the synthesized netlist**, and gain a practical understanding of **Static Timing Analysis (STA)** concepts using **OpenSTA**.  
+This week bridges the gap between **functional verification** and **timing validation**, ensuring that the synthesized design meets both **logical** and **timing constraints**.
+
+---
+
+## Week 3 Structure
+
+### **Part 1 – Post-Synthesis GLS**
+
+- Performed **Gate-Level Simulation** using the synthesized netlist and standard cell library.
+- Verified **functional equivalence** between RTL and post-synthesis simulation.
+- Understood the significance of **SDF (Standard Delay Format)** for accurate timing-based simulations.
+- Observed how **timing delays and gate-level optimizations** influence the design’s output behavior.
+
+ 👉 [View Post-Synthesis GLS Report](Part%201%20–%20Post-Synthesis%20GLS/)
+
+---
+
+### **Part 2 – Fundamentals of STA (Static Timing Analysis)**
+
+- Learned the **core concepts** of STA such as:
+  - **Setup time**, **hold time**, and **slack**
+  - **Clock latency**, **skew**, **jitter**, and **timing paths**
+- Understood how **STA differs from dynamic simulation** and why it’s essential for verifying **timing closure**.
+- Performed a basic timing analysis to check for **setup and hold violations**.
+
+👉 [View STA Fundamentals Report](Part%202%20-%20Fundamentals%20of%20Static%20Timing%20Analysis%20(STA)/)
+
+---
+
+###  **Part 3 – Generate Timing Graphs with OpenSTA**
+
+- Installed and configured **OpenSTA** with necessary dependencies.
+- Used **TCL scripts** to read the synthesized netlist, constraints, and liberty files.
+- Generated **timing graphs** and evaluated **slack**, **critical paths**, and **timing margins** across multiple PVT corners.
+- Interpreted **WNS (Worst Negative Slack)** and **TNS (Total Negative Slack)** to assess timing quality.
+
+### 🔹 **Part 3 – Generate Timing Graphs with OpenSTA**
+
+- Installed and configured **OpenSTA** with necessary dependencies.  
+- Used **TCL scripts** to read the synthesized netlist, constraints, and liberty files.  
+- Generated **timing graphs** and evaluated **slack**, **critical paths**, and **timing margins** across multiple PVT corners.  
+- Interpreted **WNS (Worst Negative Slack)** and **TNS (Total Negative Slack)** to assess timing quality.  
+
+👉 [View OpenSTA Overview](Part%203%20–%20Generate%20Timing%20Graphs%20with%20OpenSTA/)  
+👉 [View VSDBabySoC Timing Analysis Report](Part%203%20–%20Generate%20Timing%20Graphs%20with%20OpenSTA/VSDBabySoC_Timing_Analysis.md)
+
+
+---
+
+## 🧾 Author and Originality
+
+📄 [Author & Declaration](author.md)
+
+This project and documentation are **entirely done by me** and are **free from plagiarism**.  
+All experiments, results, and observations are based on **my personal implementation and understanding** during Week 3.
+
+---
+
+## 🧭 Conclusion
+
+Throughout Week 3, I learned to connect the dots between **synthesis**, **simulation**, and **timing verification**.  
+Performing Gate-Level Simulation gave me hands-on exposure to real timing delays, while OpenSTA introduced me to **static timing validation**, a crucial skill in ASIC and FPGA design flows.  
+
+By the end of this week, I could:
+- Confidently perform **post-synthesis GLS** to verify netlist correctness.  
+- Understand **setup/hold time, slack, skew, and clocking effects**.  
+- Use **OpenSTA** to analyze timing and identify **critical paths**.  
+
+This week strengthened my foundation in **timing analysis** and gave me practical insights into **timing closure and design performance optimization**.
+
+---
+
+📅 *Completed as part of Week 3 learning and experimentation on Gate-Level Simulation and Static Timing Analysis.*
