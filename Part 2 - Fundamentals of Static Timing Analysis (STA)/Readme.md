@@ -45,6 +45,7 @@ The course provides in-depth knowledge of **timing checks**, **setup/hold analys
 15. [What I Learned](#what-i-learned)
 16. [Conclusion](#conclusion)
 17. [Credits](#credits)
+18. [Completion Certificate from Udemy](#-completion-certificate-from-udemy)
 
 ---
 
