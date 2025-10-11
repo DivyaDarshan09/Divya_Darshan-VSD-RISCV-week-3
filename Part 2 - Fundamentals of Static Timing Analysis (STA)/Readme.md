@@ -313,3 +313,9 @@ Thanks to **Kunal Ghosh Sir** for the teaching. The sessions are very clear, nea
 I am grateful for this mentorship and am very excited for the upcoming weeks to continue learning and working under his guidance.
 
 ---
+
+## Completion Certificate from Udemy
+
+![STA Certificate](Screenshots/STA_Certificate.jpg)
+
+---
