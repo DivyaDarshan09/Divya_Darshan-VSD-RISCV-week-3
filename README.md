@@ -43,7 +43,7 @@
 - Generated **timing graphs** and evaluated **slack**, **critical paths**, and **timing margins** across multiple PVT corners.
 - Interpreted **WNS (Worst Negative Slack)** and **TNS (Total Negative Slack)** to assess timing quality.
 
-👉 [View OpenSTA Overview](Part%203%20–%20Generate%20Timing%20Graphs%20with%20OpenSTA/Timing_Analysis.md)  
+👉 [View OpenSTA Basic Timing Analysis](Part%203%20–%20Generate%20Timing%20Graphs%20with%20OpenSTA/Timing_Analysis.md)  
 👉 [View VSDBabySoC Timing Analysis Report](Part%203%20–%20Generate%20Timing%20Graphs%20with%20OpenSTA/VSDBabySoC_Timing_Analysis.md)
 
 ---
